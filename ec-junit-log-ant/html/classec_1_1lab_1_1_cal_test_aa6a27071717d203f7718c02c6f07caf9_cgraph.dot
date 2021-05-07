@@ -1,0 +1,9 @@
+digraph "ec.lab.CalTest.testSum"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node9 [label="ec.lab.CalTest.testSum",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="ec.lab.ICalculator.sum",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interfaceec_1_1lab_1_1_i_calculator.html#a3af1907de9ac9bd6b6be195917ffccf8",tooltip="Compute and return the sum of two integers. "];
+}

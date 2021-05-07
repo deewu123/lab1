@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="false" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="false" key="J2EE_EXPORT_SOURCE"/>
+	<list key="J2EE_EXPORT_JST_EJB">
+		<item value="C:\WilfredLaurier\CP-630-OC1\Lab1\ec-ejb.jar"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_EAR">
+		<item value="C:\WilfredLaurier\CP-630-OC1\Lab1\ec-ear.ear"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="WildFly 18.0 Runtime"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\WilfredLaurier\CP-630-OC1\Lab1\ec-web.war"/>
+	</list>
+</section>

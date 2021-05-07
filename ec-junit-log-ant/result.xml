@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" hostname="DESKTOP-3A8JL3N" name="com.ec.lab.junit.CalTest" skipped="1" tests="4" time="0.076" timestamp="2018-09-13T22:48:07">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/enterprise/eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\enterprise\jdk1.8.0_101\jre\lib\resources.jar;C:\enterprise\jdk1.8.0_101\jre\lib\rt.jar;C:\enterprise\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\enterprise\jdk1.8.0_101\jre\lib\jsse.jar;C:\enterprise\jdk1.8.0_101\jre\lib\jce.jar;C:\enterprise\jdk1.8.0_101\jre\lib\charsets.jar;C:\enterprise\jdk1.8.0_101\jre\lib\jfr.jar;C:\enterprise\jdk1.8.0_101\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327" />
+    <property name="jar.dir" value="jar" />
+    <property name="java.runtime.version" value="1.8.0_101-b13" />
+    <property name="user.name" value="hbfan" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\enterprise\jdk1.8.0_101\jre\bin" />
+    <property name="ant.project.default-target" value="main" />
+    <property name="ant.project.name" value="ec-junit-log-ant" />
+    <property name="java.version" value="1.8.0_101" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\enterprise\jdk1.8.0_101\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="classes.dir" value="bin" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="CA" />
+    <property name="java.home" value="C:\enterprise\jdk1.8.0_101\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="main-class" value="com.ec.lab.MyCalculator" />
+    <property name="ant.file" value="C:\Users\hbfan\workspace2\ec-junit-log-ant\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.101-b13" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/enterprise/eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts/" />
+    <property name="user.home" value="C:\Users\hbfan" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\enterprise\eclipse;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/enterprise/jdk1.8.0_101/jre/bin/server;C:/enterprise/jdk1.8.0_101/jre/bin;C:/enterprise/jdk1.8.0_101/jre/lib/amd64;C:\Program Files\Docker\Docker\Resources\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;;C:\WINDOWS\System32\OpenSSH\;C:\Users\hbfan\AppData\Local\Microsoft\WindowsApps;C:\enterprise\jdk1.8.0_101\jre\bin;C:\enterprise\jdk1.8.0_101\jre;C:\enterprise\jdk1.8.0_101\bin;C:\enterprise\apache-ant-1.10.1\bin;C:\enterprise\apache-maven-3.5.0\bin;C:\enterprise\hadoop-2.7.1\bin;C:\enterprise\wildfly-10.1.0.Final\bin;C:\enterprise\scala\bin;C:\enterprise\sbt\bin;C:\enterprise\spark-1.6.2-bin-hadoop2.6\bin;C:\enterprise\DataStax-DDC\apache-cassandra\bin;C:\enterprise\eclipse;C:\enterprise\doxygen\bin;C:\enterprise\Graphviz2.38\bin;C:\enterprise\mscgen-0.20\bin;C:\MinGW\bin;C:\Users\hbfan\AppData\Local\Microsoft\WindowsApps;C:\enterprise\pandoc-2.2.3.2;C:\enterprise\zookeeper-3.4.12\bin;C:\enterprise\kafka_2.11-2.0.0\bin\windows;C:\enterprise\apache-karaf-4.2.1\bin;C:\OpenSSL-Win32\bin;C:\enterprise\gradle-4.10.1\bin;C:\enterprise\eclipse;;.;C:\enterprise\eclipse\configuration\org.eclipse.osgi\763\0\.cp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1536878883427 -Declipse.connect.port=62944 -Declipse.pdebuild.home=/C:/enterprise/eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/./ -Declipse.pdebuild.scripts=/C:/enterprise/eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/scripts/ -Declipse.pdebuild.templates=/C:/enterprise/eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/templates/ -Dant.home=C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\hbfan\workspace2\ec-junit-log-ant\build.xml main junit" />
+    <property name="java.class.path" value="C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-antlr.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bcel.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-bsf.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-log4j.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-oro.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-regexp.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-resolver.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-apache-xalan2.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-logging.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-commons-net.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jai.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-javamail.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jdepend.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jmf.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-jsch.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-netrexx.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-swing.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-testutil.jar;C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\enterprise\eclipse\configuration\org.eclipse.osgi\80\0\.cp\lib\antdebug.jar;C:\enterprise\eclipse\configuration\org.eclipse.osgi\80\0\.cp\lib\remote.jar;C:\enterprise\eclipse\configuration\org.eclipse.osgi\81\0\.cp\lib\remoteAnt.jar;C:\enterprise\jdk1.8.0_101\lib\tools.jar;C:\enterprise\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.105.3.v20170228-0512.jar;C:\enterprise\eclipse\plugins\org.jboss.tools.xulrunner.initializer_3.8.3.v20161201-1638.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.file.ec-junit-log-ant" value="C:\Users\hbfan\workspace2\ec-junit-log-ant\build.xml" />
+    <property name="eclipse.pdebuild.home" value="/C:/enterprise/eclipse/plugins/org.eclipse.pde.build_3.9.200.v20160204-0642/./" />
+    <property name="java.io.tmpdir" value="C:\Users\hbfan\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\enterprise\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\hbfan\workspace2\ec-junit-log-ant" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="C:\Users\hbfan\workspace2\ec-junit-log-ant" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\enterprise\eclipse\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.file.type.ec-junit-log-ant" value="file" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="main,junit" />
+  </properties>
+  <testcase classname="com.ec.lab.junit.CalTest" name="testSum" time="0.023">
+    <failure message="expected:&lt;6&gt; but was:&lt;7&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;6&gt; but was:&lt;7&gt;
+	at com.ec.lab.junit.CalTest.testSum(CalTest.java:36)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:36)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:456)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:140)
+</failure>
+  </testcase>
+  <testcase classname="com.ec.lab.junit.CalTest" name="testEqual" time="0.001">
+    <skipped />
+  </testcase>
+  <testcase classname="com.ec.lab.junit.CalTest" name="testDivisionException" time="0.001" />
+  <testcase classname="com.ec.lab.junit.CalTest" name="testDivison" time="0.0" />
+  <system-out><![CDATA[This is executed before each Test
+This is exceuted after each Test
+This is executed before each Test
+This is exceuted after each Test
+This is executed before each Test
+This is exceuted after each Test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

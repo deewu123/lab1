@@ -1,0 +1,6 @@
+[INFO ] 2020-09-15 00:15:46.900 [main] Log4j2Example1 - Hello World
+[DEBUG] 2020-09-15 00:16:29.215 [main] Log4j2Example1 - Debug Message Logged !!!
+[INFO ] 2020-09-15 00:16:29.215 [main] Log4j2Example1 - Info Message Logged !!!
+[ERROR] 2020-09-15 00:16:29.215 [main] Log4j2Example1 - Error Message Logged !!!
+java.lang.NullPointerException: NullError
+	at ec.lab.log4j2.Log4j2Example1.main(Log4j2Example1.java:18) [classes/:?]

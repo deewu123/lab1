@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\WilfredLaurier\CP-630-OC1\Lab0\eclipseWS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3203213821.index
+54703828.index
+1197627753.index
+3687183108.index
+2389314275.index
+2517885620.index
+996375926.index
+45286958.index

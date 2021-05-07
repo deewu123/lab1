@@ -1,0 +1,42 @@
+<h1 id="warm-up-java-project">Warm Up Java Project</h1>
+<p>Author: HBF<br />
+Date: 2020-09-07 (update)</p>
+<h2 id="this-project-is-to-demonstrate-the-following">This project is to demonstrate the following</h2>
+<ol class="incremental" type="1">
+<li>Create a simple java project.</li>
+<li>Create an interface.</li>
+<li>Create a class to implement the interface.</li>
+<li>Create a class for unit test of the implementation class.</li>
+<li>Create an application class containing the main method and instantiation of the implementation class and method calls.</li>
+<li>Create runtime logging with log4j.</li>
+<li>Test markdown for simple documentation, like this readme file.</li>
+</ol>
+<h2 id="prerequisites">Prerequisites</h2>
+<ol class="incremental" type="1">
+<li>Java and Eclipse IDE.</li>
+<li></li>
+</ol>
+<h2 id="do-the-following-to-know-this-project">Do the following to know this project</h2>
+<ol class="incremental" type="1">
+<li>Open and read ICalculator.java in the src / ec.lab (i.e. src/ec/lab/junit directory)</li>
+<li>Open and read the Calculator.java</li>
+<li>Open and read the CalTest.java in test/ec.lab.</li>
+<li>Right click the CalTest.java -&gt; Run As -&gt; Junit Test. It will run all unit tests. The testing info will be showing in Console tab (output of System.out.print()) and JUnit tab. Running Junit test can also be done by clicking the debug button.</li>
+<li>Open and read MyCalculator.java. Right click the file name or the opened file window -&gt; Run As -&gt; Java Application.</li>
+<li>Check the lib folder, it contains the jar file libraries for junit, log4j</li>
+<li>Check project Properties -&gt; Java Build Path -&gt; Libraries. The junit and log4j libraries in the lib folder are added. The results and logging info are shown in the console tab.<br />
+</li>
+<li>Export the project to runnable jar package: ec-junit-log.jar to the root directory of ec-junit-log project:<br />
+Right click the ec-junit-log project -&gt; Export -&gt; Java -&gt; runnable jar file -&gt; set launch configuration to MyCalculator,<br />
+set export destination to the root directory of ec-junit-log project with file name mycalculator.jar, check Extract required libraries into generated JAR under Library handling -&gt; click Finish.</li>
+<li><p>Open cmd console, cd to the above directory, run command: java -jar mycalculator.jar</p>
+<p>The output and log info will be on the console terminal. A logs folder will be created and the log file app-info.log will be stored in logs. Run the above command again, you can see the logging information in app-info.log file.</p></li>
+<li><p>Check the log4j configuration file resource/log4j2.xml, and check the log file in logs folder.</p></li>
+</ol>
+<h2 id="markdown">Markdown</h2>
+<ol class="incremental" type="1">
+<li>Check the markdown files under doc folder. These files give a very brief introduction to the markdown.<br />
+</li>
+<li>In the console of previous step, run command: pandoc -i README.md -o readme.html<br />
+This will create readme.html file under the project root, may refresh the project to see the new file. It will use markdown to write project README.md file and use pandoc to convert markdown file to html or other file formats.</li>
+</ol>

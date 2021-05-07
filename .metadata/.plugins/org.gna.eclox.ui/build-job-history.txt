@@ -1,0 +1,1 @@
+/ec-junit-log-ant/ECJunitLog.doxyfile
